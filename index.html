@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&family=Oswald:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@300;700&family=Roboto+Mono&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="desc">
+        <h1>BMI Calculator</h1>
+        <p>Program Sederhana untuk menghitung indeks massa tubuh (Body Mass Index) yang menentukan berat badan sehat atau tidak</p>
+      </div>
+      <div class="display">
+        <div class="content">
+          <div class="inputField">
+            <p id="height">Tinggi (cm)</p>
+            <input type="number" id="inputHeight" />
+          </div>
+          <div class="inputField">
+            <p id="weight">Berat (kg)</p>
+            <input type="number" id="inputWeight" />
+          </div>
+        </div>
+        <div class="calculate">
+          <button>Kalkulasi</button>
+          <button class="clear">Clear</button>
+        </div>
+      </div>
+      <div class="result">
+        <h4>BMI Anda Adalah :</h4>
+        <div class="bmi">
+          <h2 class="score">00.00</h2>
+          <span class="stats"></span>
+        </div>
+      </div>
+      <div class="credit">
+        <h3>Follow me at <a href="https://www.instagram.com/hmdnubaidillah/" target="_blank" rel="noopener noreferrer">@hmdnubaidillah</a></h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
