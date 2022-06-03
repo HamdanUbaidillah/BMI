@@ -19,7 +19,7 @@ btn.addEventListener("click", function () {
       status = "Normal";
     } else if (bmi >= 24.9 && bmi < 30.0) {
       status = "Kelebihan Berat";
-    } else if (bmi >= 30.0) {
+    } else {
       status = "Obesitas";
     }
     stats.innerHTML = status;
