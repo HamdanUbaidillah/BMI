@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 550px;
+        min-height: 15vh;
+        padding: 15px;
+        background-color: rgb(160, 160, 160);
+      }
+      .display {
+        width: 100px;
+        height: 40px;
+        font-size: 30px;
+        background-color: #fff;
+        border: 2px solid rgb(134, 134, 134);
+        text-align: center;
+        line-height: 40px;
+        margin: 50px auto;
+      }
+      .display:hover {
+        cursor: pointer;
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: -20px;
+      }
+      .btn {
+        font-size: 20px;
+        width: 50px;
+        height: 30px;
+        margin: 0px 10px;
+      }
+      .btn:hover {
+        cursor: pointer;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>simple counter</h1>
+      <div class="display">0</div>
+      <div class="button">
+        <button class="decreaseDbl btn">--</button>
+        <button class="decrease btn">-</button>
+        <button class="increase btn">+</button>
+        <button class="increaseDbl btn">++</button>
+        <button class="clear btn">C</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
